@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_color">
+        <item>빨강</item>
+        <item>초록</item>
+        <item>파랑</item>
+    </string-array>
+    <string-array name="my_color_value">
+        <item>#FFB9B8</item>
+        <item>#A8DC74</item>
+        <item>#88C8FF</item>
+    </string-array>
+</resources>

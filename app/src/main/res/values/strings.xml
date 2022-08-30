@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">따릉이의 길</string>
+    <string name="drawer_open">OPEN</string>
+    <string name="drawer_close">CLOSE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

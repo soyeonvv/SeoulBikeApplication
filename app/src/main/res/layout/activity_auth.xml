@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AuthActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그아웃"
+        android:id="@+id/authMainTextView"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그아웃"
+        android:textStyle="bold"
+        android:id="@+id/logoutBtn"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        android:textStyle="bold"
+        android:id="@+id/goSignInBtn"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이메일"
+        android:id="@+id/authEmailEditView"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="패스워드 - 6자 이상"
+        android:id="@+id/authPasswordEditView"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가입"
+        android:textStyle="bold"
+        android:id="@+id/signBtn"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인"
+        android:textStyle="bold"
+        android:id="@+id/loginBtn"
+        android:layout_marginTop="20dp"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_kakao_login"
+        android:src="@drawable/kakao_login_medium_wide"
+        android:visibility="gone" />
+</LinearLayout>

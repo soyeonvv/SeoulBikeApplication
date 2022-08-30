@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "275382817454",
+    "project_id": "seoulbikeauth",
+    "storage_bucket": "seoulbikeauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275382817454:android:cc330509e4a77e4dab933f",
+        "android_client_info": {
+          "package_name": "com.example.seoulbikeapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275382817454-j5a8h7ml69glqqaf77ffck9jcabpeabu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.seoulbikeapplication",
+            "certificate_hash": "3e58f89f59a8915f7743614e06c273e2d23bf120"
+          }
+        },
+        {
+          "client_id": "275382817454-btjuapu0f7bj0cj5vht7k4ae2luiiard.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBebNmEujqEUJIu-KO2asmhgIhkKTxVHKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275382817454-btjuapu0f7bj0cj5vht7k4ae2luiiard.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/authTv"
+        android:title=""
+        android:visible="false" />
+    <item
+        android:id="@+id/txtLogin"
+        android:title="로그인" />
+    <item
+        android:id="@+id/route"
+        android:title="찾아본 위치📁"
+        android:visible="false" />
+    <item
+        android:id="@+id/map"
+        android:title="지도🗺️"
+        android:visible="false" />
+    <item
+        android:id="@+id/setting"
+        android:title="설정⚙️"
+        android:visible="false" />
+</menu>
